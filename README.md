@@ -8,7 +8,7 @@ Credexa is a revolutionary platform that consolidates, validates, and organizes 
 
 ## 🌐 Live Demo
 
-**🔗 Plaatform:** [Click Here](https://credexa.vercel.app/)
+<!-- **🔗 Plaatform:** [Click Here](https://credexa.vercel.app/) -->
 
 ---
 
