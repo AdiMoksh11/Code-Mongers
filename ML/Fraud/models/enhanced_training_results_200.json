@@ -1,0 +1,7 @@
+{
+  "dataset_size": 200,
+  "metadata_train_acc": 1.0,
+  "metadata_test_acc": 1.0,
+  "features_count": 10,
+  "model_type": "enhanced_metadata"
+}

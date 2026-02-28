@@ -1,0 +1,14 @@
+{
+  "issuer": "Deceptive University",
+  "creation_date": "2025-04-03T00:36:06.517760",
+  "modification_date": "2025-08-29T00:36:06.517760",
+  "producer": "Suspicious Tool",
+  "creator": "Hacker Tool",
+  "title": "Certificate - Deceptive University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 174,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

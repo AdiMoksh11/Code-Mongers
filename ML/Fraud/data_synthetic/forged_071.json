@@ -1,0 +1,14 @@
+{
+  "issuer": "Bogus University",
+  "creation_date": "2025-01-30T00:36:07.090312",
+  "modification_date": "2025-09-10T00:36:07.090312",
+  "producer": "Unknown",
+  "creator": "Notepad",
+  "title": "Certificate - Bogus University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 237,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

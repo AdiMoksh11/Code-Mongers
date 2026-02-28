@@ -1,0 +1,14 @@
+{
+  "issuer": "Fraudulent Academy",
+  "creation_date": "2025-01-13T00:36:06.454248",
+  "modification_date": "2025-09-17T00:36:06.454248",
+  "producer": "PDFCreator",
+  "creator": "Notepad",
+  "title": "Certificate - Fraudulent Academy",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 254,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

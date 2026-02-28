@@ -1,0 +1,14 @@
+{
+  "issuer": "Diploma Mill College",
+  "creation_date": "2023-08-25T00:36:06.406112",
+  "modification_date": "2025-08-27T00:36:06.406112",
+  "producer": "Fake PDF Maker",
+  "creator": "Paint",
+  "title": "Certificate - Diploma Mill College",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 761,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

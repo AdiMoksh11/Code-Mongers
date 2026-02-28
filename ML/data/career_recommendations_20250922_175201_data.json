@@ -1,0 +1,291 @@
+{
+  "user_profile": {
+    "skills": [
+      "python",
+      "machine learning",
+      "sql",
+      "data analysis",
+      "pandas",
+      "scikit-learn"
+    ],
+    "experience_level": "mid",
+    "preferred_roles": [
+      "data scientist",
+      "machine learning engineer",
+      "data analyst"
+    ],
+    "location": "San Francisco, CA",
+    "salary_range": {
+      "min": 80000,
+      "max": 120000
+    },
+    "work_type": "hybrid"
+  },
+  "recommendations": [
+    {
+      "job": {
+        "title": "Senior Data Scientist",
+        "company": "Tech Corp",
+        "location": "San Francisco, CA",
+        "description": "We are looking for a Senior Data Scientist with expertise in Python, machine learning, and statistical analysis. You will work on cutting-edge AI projects and collaborate with cross-functional teams.",
+        "skills_required": [
+          "python",
+          "machine learning",
+          "sql",
+          "pandas",
+          "scikit-learn",
+          "statistics"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$120,000 - $180,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 91.66666666666669,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 80.0,
+        "overall_score": 77.5
+      },
+      "explanation": "This Senior Data Scientist position at Tech Corp is a very good match for your profile. Your skills align excellently with the requirements, covering 83% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (83% coverage)",
+        "High-growth industry/technology",
+        "Excellent location match",
+        "Competitive salary range"
+      ],
+      "cons": [],
+      "skill_gaps": [
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Software Developer (Python)",
+        "company": "Lenme",
+        "location": "Unknown Location",
+        "description": "Job at Lenme",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 65.75
+      },
+      "explanation": "This Software Developer (Python) position at Lenme is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Python Developer",
+        "company": "Open Systems Technologies",
+        "location": "Unknown Location",
+        "description": "Job at Open Systems Technologies",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 65.75
+      },
+      "explanation": "This Python Developer position at Open Systems Technologies is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Machine Learning Engineer",
+        "company": "AI Startup",
+        "location": "Remote",
+        "description": "Join our team as a Machine Learning Engineer. Requirements include Python, TensorFlow, Docker, and cloud platforms. Experience with MLOps and model deployment preferred.",
+        "skills_required": [
+          "python",
+          "tensorflow",
+          "docker",
+          "aws",
+          "kubernetes",
+          "mlops"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$100,000 - $150,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 18.333333333333332,
+        "role_relevance_score": 33.33333333333333,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 90.0,
+        "overall_score": 53.5
+      },
+      "explanation": "This Machine Learning Engineer position at AI Startup is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tensorflow, docker, aws. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Excellent location match",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "tensorflow",
+        "docker",
+        "aws",
+        "kubernetes",
+        "mlops"
+      ],
+      "learning_suggestions": {
+        "tensorflow": [
+          "Take an online course in tensorflow",
+          "Practice tensorflow through projects",
+          "Read documentation and tutorials about tensorflow"
+        ],
+        "docker": [
+          "Learn containerization basics",
+          "Practice with Docker Hub",
+          "Deploy applications"
+        ],
+        "aws": [
+          "Get AWS certification",
+          "Practice with free tier",
+          "Build cloud projects"
+        ],
+        "kubernetes": [
+          "Take an online course in kubernetes",
+          "Practice kubernetes through projects",
+          "Read documentation and tutorials about kubernetes"
+        ],
+        "mlops": [
+          "Take an online course in mlops",
+          "Practice mlops through projects",
+          "Read documentation and tutorials about mlops"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Product Manager",
+        "company": "Slack",
+        "location": "San Francisco, CA",
+        "description": "Lead product strategy for communication platform. Experience with B2B SaaS and agile development.",
+        "skills_required": [
+          "product management",
+          "agile",
+          "sql",
+          "analytics",
+          "jira"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$120,000 - $160,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": null,
+        "posted_date": null,
+        "source": "glassdoor"
+      },
+      "score": {
+        "skill_score": 43.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 100,
+        "growth_score": 60,
+        "location_score": 100,
+        "salary_score": 80.0,
+        "overall_score": 48.05
+      },
+      "explanation": "This Product Manager position at Slack is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in product management, agile, jira. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "Excellent location match",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "product management",
+        "agile",
+        "jira"
+      ],
+      "learning_suggestions": {
+        "product management": [
+          "Take an online course in product management",
+          "Practice product management through projects",
+          "Read documentation and tutorials about product management"
+        ],
+        "agile": [
+          "Take an online course in agile",
+          "Practice agile through projects",
+          "Read documentation and tutorials about agile"
+        ],
+        "jira": [
+          "Take an online course in jira",
+          "Practice jira through projects",
+          "Read documentation and tutorials about jira"
+        ]
+      }
+    }
+  ],
+  "generated_at": "2025-09-22T17:52:01.219125"
+}

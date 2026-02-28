@@ -1,0 +1,14 @@
+{
+  "issuer": "Pretend Institute",
+  "creation_date": "2023-07-17T00:36:05.641933",
+  "modification_date": "2025-09-10T00:36:05.641933",
+  "producer": "Fake PDF Maker",
+  "creator": "Hacker Tool",
+  "title": "Certificate - Pretend Institute",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 800,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

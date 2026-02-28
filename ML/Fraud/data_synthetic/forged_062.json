@@ -1,0 +1,14 @@
+{
+  "issuer": "Deceptive University",
+  "creation_date": "2022-12-17T00:36:06.889260",
+  "modification_date": "2025-09-23T00:36:06.889260",
+  "producer": "Fake PDF Maker",
+  "creator": "Paint",
+  "title": "Certificate - Deceptive University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 1012,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

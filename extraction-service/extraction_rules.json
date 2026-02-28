@@ -1,0 +1,32 @@
+{
+  "coursera": {
+    "platform": "coursera",
+    "name_rule": "Text before 'has successfully completed'",
+    "course_rule": "Text after 'has successfully completed'",
+    "date_rule": "None (leave blank)"
+  },
+  "nptel": {
+    "platform": "nptel",
+    "name_rule": "Text after 'This certificate is awarded to'",
+    "course_rule": "Text after 'completing the course'",
+    "date_rule": "Text matching pattern '[Month]-[Month] [Year]' (e.g., Jan-Apr 2019)"
+  },
+  "simplilearn": {
+    "platform": "simplilearn",
+    "name_rule": "Text after 'Congratulations!'",
+    "course_rule": "Text after 'program on'",
+    "date_rule": "Text matching pattern like '[day] [month] [year]' (e.g., 11th Dec 2020)"
+  },
+  "udemy": {
+    "platform": "udemy",
+    "name_rule": "Text after 'certify that' and before 'successfully'",
+    "course_rule": "Text after 'hours of' and before 'online course'",
+    "date_rule": "Text matching pattern like '[Month]. [day], [year]' (e.g., Nov. 12, 2021)"
+  },
+  "upgrad": {
+    "platform": "upgrad",
+    "name_rule": "Text after 'certify that' and before 'has successfully'",
+    "course_rule": "Text after 'course on' and before 'Issued on'",
+    "date_rule": "Text matching pattern like '[dd]-[mm]-[yyyy]' (e.g., 10-05-2012)"
+  }
+}

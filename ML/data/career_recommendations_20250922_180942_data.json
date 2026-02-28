@@ -1,0 +1,1697 @@
+{
+  "user_profile": {
+    "skills": [
+      "python",
+      "machine learning",
+      "sql",
+      "data analysis",
+      "pandas",
+      "scikit-learn"
+    ],
+    "experience_level": "mid",
+    "preferred_roles": [
+      "data scientist",
+      "machine learning engineer",
+      "data analyst"
+    ],
+    "location": "San Francisco, CA",
+    "salary_range": {
+      "min": 80000,
+      "max": 120000
+    },
+    "work_type": "hybrid"
+  },
+  "recommendations": [
+    {
+      "job": {
+        "title": "Senior Data Scientist",
+        "company": "Tech Corp",
+        "location": "San Francisco, CA",
+        "description": "We are looking for a Senior Data Scientist with expertise in Python, machine learning, and statistical analysis. You will work on cutting-edge AI projects and collaborate with cross-functional teams.",
+        "skills_required": [
+          "python",
+          "machine learning",
+          "sql",
+          "pandas",
+          "scikit-learn",
+          "statistics"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$120,000 - $180,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 91.66666666666669,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 80.0,
+        "overall_score": 77.5
+      },
+      "explanation": "This Senior Data Scientist position at Tech Corp is a very good match for your profile. Your skills align excellently with the requirements, covering 83% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (83% coverage)",
+        "High-growth industry/technology",
+        "Excellent location match",
+        "Competitive salary range"
+      ],
+      "cons": [],
+      "skill_gaps": [
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Scientist",
+        "company": "Tata Consultancy Services",
+        "location": "Mumbai, India",
+        "description": "Build ML models for banking and financial services clients. Work with large datasets and advanced analytics.",
+        "skills_required": [
+          "python",
+          "machine learning",
+          "pandas",
+          "scikit-learn",
+          "sql",
+          "tableau"
+        ],
+        "experience_level": "mid",
+        "salary_range": "₹8,00,000 - ₹14,00,000",
+        "job_type": "full-time",
+        "work_type": "onsite",
+        "url": "https://naukri.com/jobs/12346",
+        "posted_date": null,
+        "source": "naukri"
+      },
+      "score": {
+        "skill_score": 91.66666666666669,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 20,
+        "overall_score": 75.5
+      },
+      "explanation": "This Data Scientist position at Tata Consultancy Services is a very good match for your profile. Your skills align excellently with the requirements, covering 83% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (83% coverage)",
+        "Perfect experience level match",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal",
+        "Salary may not meet expectations"
+      ],
+      "skill_gaps": [
+        "tableau"
+      ],
+      "learning_suggestions": {
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Machine Learning Engineer",
+        "company": "James Search Group",
+        "location": "Unknown Location",
+        "description": "Job at James Search Group",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 33.33333333333333,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 74.08333333333333
+      },
+      "explanation": "This Machine Learning Engineer position at James Search Group is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Data Scientist-Vice President",
+        "company": "hackajob",
+        "location": "Unknown Location",
+        "description": "Job at hackajob",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 75,
+        "growth_score": 60,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 72.16666666666666
+      },
+      "explanation": "This Data Scientist-Vice President position at hackajob is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The role offers good career growth opportunities.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Business Data Scientist, Impact Measurement",
+        "company": "Google",
+        "location": "Unknown Location",
+        "description": "Job at Google",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 75,
+        "growth_score": 60,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 72.16666666666666
+      },
+      "explanation": "This Business Data Scientist, Impact Measurement position at Google is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The role offers good career growth opportunities.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "ML/AI Engineer",
+        "company": "Rillet",
+        "location": "Unknown Location",
+        "description": "Job at Rillet",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 67.97222222222223
+      },
+      "explanation": "This ML/AI Engineer position at Rillet is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Applied AI Engineer, Agents",
+        "company": "LM Studio",
+        "location": "Unknown Location",
+        "description": "Job at LM Studio",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 65.75
+      },
+      "explanation": "This Applied AI Engineer, Agents position at LM Studio is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Data Scientist",
+        "company": "NASA",
+        "location": "Houston, TX",
+        "description": "Analyze space mission data and support human spaceflight operations. Security clearance required.",
+        "skills_required": [
+          "python",
+          "r",
+          "machine learning",
+          "matlab",
+          "sql"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$95,000 - $145,000",
+        "job_type": "full-time",
+        "work_type": "onsite",
+        "url": null,
+        "posted_date": null,
+        "source": "government"
+      },
+      "score": {
+        "skill_score": 66.0,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 92.5,
+        "overall_score": 65.64166666666667
+      },
+      "explanation": "This Data Scientist position at NASA is a good match for your profile. You have solid skill overlap with 60% coverage of requirements, with some growth opportunities. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "r",
+        "matlab"
+      ],
+      "learning_suggestions": {
+        "r": [
+          "Take an online course in r",
+          "Practice r through projects",
+          "Read documentation and tutorials about r"
+        ],
+        "matlab": [
+          "Take an online course in matlab",
+          "Practice matlab through projects",
+          "Read documentation and tutorials about matlab"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Analyst",
+        "company": "Finance Company",
+        "location": "New York, NY",
+        "description": "Seeking a Data Analyst to work with large datasets, create visualizations, and provide business insights. SQL, Python, and Tableau experience required.",
+        "skills_required": [
+          "sql",
+          "python",
+          "tableau",
+          "excel",
+          "data analysis",
+          "statistics"
+        ],
+        "experience_level": "entry",
+        "salary_range": "$70,000 - $90,000",
+        "job_type": "full-time",
+        "work_type": "onsite",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 55.0,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 85,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 85.0,
+        "overall_score": 63.666666666666664
+      },
+      "explanation": "This Data Analyst position at Finance Company is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tableau, excel, statistics. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "tableau",
+        "excel",
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ],
+        "excel": [
+          "Take an online course in excel",
+          "Practice excel through projects",
+          "Read documentation and tutorials about excel"
+        ],
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Junior Data Scientist",
+        "company": "StartupAI",
+        "location": "Austin, TX",
+        "description": "Entry-level data scientist role focusing on predictive analytics and business intelligence.",
+        "skills_required": [
+          "python",
+          "sql",
+          "tableau",
+          "statistics",
+          "excel"
+        ],
+        "experience_level": "entry",
+        "salary_range": "$70,000 - $90,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": null,
+        "posted_date": null,
+        "source": "indeed"
+      },
+      "score": {
+        "skill_score": 44.0,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 85,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 85.0,
+        "overall_score": 59.81666666666666
+      },
+      "explanation": "This Junior Data Scientist position at StartupAI is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tableau, statistics, excel. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "tableau",
+        "statistics",
+        "excel"
+      ],
+      "learning_suggestions": {
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ],
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ],
+        "excel": [
+          "Take an online course in excel",
+          "Practice excel through projects",
+          "Read documentation and tutorials about excel"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Remote Data Scientist",
+        "company": "Automattic",
+        "location": "Remote",
+        "description": "Analyze user behavior for WordPress.com and WooCommerce. Work from anywhere in the world.",
+        "skills_required": [
+          "python",
+          "r",
+          "sql",
+          "machine learning",
+          "statistics",
+          "tableau"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$120,000 - $160,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": null,
+        "posted_date": null,
+        "source": "remoteok"
+      },
+      "score": {
+        "skill_score": 55.0,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 70,
+        "growth_score": 60,
+        "location_score": 100,
+        "salary_score": 80.0,
+        "overall_score": 59.416666666666664
+      },
+      "explanation": "This Remote Data Scientist position at Automattic is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in r, statistics, tableau. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Excellent location match",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [],
+      "skill_gaps": [
+        "r",
+        "statistics",
+        "tableau"
+      ],
+      "learning_suggestions": {
+        "r": [
+          "Take an online course in r",
+          "Practice r through projects",
+          "Read documentation and tutorials about r"
+        ],
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ],
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Growth Engineer",
+        "company": "Notion",
+        "location": "San Francisco, CA",
+        "description": "Drive user acquisition and engagement through data-driven experiments and product optimizations.",
+        "skills_required": [
+          "python",
+          "sql",
+          "a/b testing",
+          "analytics",
+          "growth hacking"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$130,000 - $180,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": "https://wellfound.com/jobs/12346",
+        "posted_date": null,
+        "source": "angellist"
+      },
+      "score": {
+        "skill_score": 65.0,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 100,
+        "growth_score": 75,
+        "location_score": 100,
+        "salary_score": 40,
+        "overall_score": 58.22222222222222
+      },
+      "explanation": "This Growth Engineer position at Notion is a fair match for your profile. You have solid skill overlap with 60% coverage of requirements, with some growth opportunities. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "Excellent location match",
+        "Remote work opportunity"
+      ],
+      "cons": [],
+      "skill_gaps": [
+        "a/b testing",
+        "growth hacking"
+      ],
+      "learning_suggestions": {
+        "a/b testing": [
+          "Take an online course in a/b testing",
+          "Practice a/b testing through projects",
+          "Read documentation and tutorials about a/b testing"
+        ],
+        "growth hacking": [
+          "Take an online course in growth hacking",
+          "Practice growth hacking through projects",
+          "Read documentation and tutorials about growth hacking"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Engineer",
+        "company": "Airbnb",
+        "location": "San Francisco, CA",
+        "description": "Build data pipelines for travel platform. Spark, Kafka, and AWS experience preferred.",
+        "skills_required": [
+          "spark",
+          "kafka",
+          "aws",
+          "python",
+          "sql",
+          "airflow"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$130,000 - $170,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "glassdoor"
+      },
+      "score": {
+        "skill_score": 36.666666666666664,
+        "role_relevance_score": 35.55555555555555,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 40,
+        "overall_score": 57.97222222222222
+      },
+      "explanation": "This Data Engineer position at Airbnb is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in spark, kafka, aws. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Excellent location match"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "spark",
+        "kafka",
+        "aws",
+        "airflow"
+      ],
+      "learning_suggestions": {
+        "spark": [
+          "Take an online course in spark",
+          "Practice spark through projects",
+          "Read documentation and tutorials about spark"
+        ],
+        "kafka": [
+          "Take an online course in kafka",
+          "Practice kafka through projects",
+          "Read documentation and tutorials about kafka"
+        ],
+        "aws": [
+          "Get AWS certification",
+          "Practice with free tier",
+          "Build cloud projects"
+        ],
+        "airflow": [
+          "Take an online course in airflow",
+          "Practice airflow through projects",
+          "Read documentation and tutorials about airflow"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Analyst",
+        "company": "Finance Solutions",
+        "location": "New York, NY",
+        "description": "Data Analyst role focusing on business intelligence and reporting. SQL, Excel, Tableau required.",
+        "skills_required": [
+          "sql",
+          "excel",
+          "tableau",
+          "python",
+          "statistics"
+        ],
+        "experience_level": "entry",
+        "salary_range": "$60,000 - $80,000",
+        "job_type": "full-time",
+        "work_type": "onsite",
+        "url": null,
+        "posted_date": null,
+        "source": "indeed"
+      },
+      "score": {
+        "skill_score": 44.0,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 85,
+        "growth_score": 75,
+        "location_score": 30,
+        "salary_score": 80.0,
+        "overall_score": 56.56666666666666
+      },
+      "explanation": "This Data Analyst position at Finance Solutions is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in excel, tableau, statistics. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "excel",
+        "tableau",
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "excel": [
+          "Take an online course in excel",
+          "Practice excel through projects",
+          "Read documentation and tutorials about excel"
+        ],
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ],
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Analyst",
+        "company": "IBM",
+        "location": "Austin, TX",
+        "description": "Analyze business data to drive strategic decisions. Create dashboards and reports for executive leadership.",
+        "skills_required": [
+          "sql",
+          "python",
+          "tableau",
+          "excel",
+          "data visualization",
+          "statistics"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$75,000 - $95,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": "https://monster.com/jobs/12346",
+        "posted_date": null,
+        "source": "monster"
+      },
+      "score": {
+        "skill_score": 36.666666666666664,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 100,
+        "growth_score": 60,
+        "location_score": 30,
+        "salary_score": 87.5,
+        "overall_score": 54.375
+      },
+      "explanation": "This Data Analyst position at IBM is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tableau, excel, data visualization. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "tableau",
+        "excel",
+        "data visualization",
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ],
+        "excel": [
+          "Take an online course in excel",
+          "Practice excel through projects",
+          "Read documentation and tutorials about excel"
+        ],
+        "data visualization": [
+          "Take an online course in data visualization",
+          "Practice data visualization through projects",
+          "Read documentation and tutorials about data visualization"
+        ],
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Machine Learning Engineer",
+        "company": "Uber",
+        "location": "Palo Alto, CA",
+        "description": "Build ML models for ride-sharing optimization. Work with real-time data processing and recommendation systems.",
+        "skills_required": [
+          "machine learning",
+          "python",
+          "tensorflow",
+          "spark",
+          "kafka",
+          "real-time systems"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$160,000 - $220,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": "https://simplyhired.com/jobs/12348",
+        "posted_date": null,
+        "source": "simplyhired"
+      },
+      "score": {
+        "skill_score": 36.666666666666664,
+        "role_relevance_score": 33.33333333333333,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 60,
+        "salary_score": 40,
+        "overall_score": 50.916666666666664
+      },
+      "explanation": "This Machine Learning Engineer position at Uber is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tensorflow, spark, kafka. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "tensorflow",
+        "spark",
+        "kafka",
+        "real-time systems"
+      ],
+      "learning_suggestions": {
+        "tensorflow": [
+          "Take an online course in tensorflow",
+          "Practice tensorflow through projects",
+          "Read documentation and tutorials about tensorflow"
+        ],
+        "spark": [
+          "Take an online course in spark",
+          "Practice spark through projects",
+          "Read documentation and tutorials about spark"
+        ],
+        "kafka": [
+          "Take an online course in kafka",
+          "Practice kafka through projects",
+          "Read documentation and tutorials about kafka"
+        ],
+        "real-time systems": [
+          "Take an online course in real-time systems",
+          "Practice real-time systems through projects",
+          "Read documentation and tutorials about real-time systems"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Scientist - ML Infrastructure",
+        "company": "Salesforce",
+        "location": "San Francisco, CA",
+        "description": "Develop machine learning infrastructure for CRM platform. Build ML pipelines, feature stores, and model deployment systems.",
+        "skills_required": [
+          "python",
+          "tensorflow",
+          "pytorch",
+          "mlflow",
+          "airflow",
+          "aws"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$145,000 - $195,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": "https://linkedin.com/jobs/12346",
+        "posted_date": null,
+        "source": "linkedin-api"
+      },
+      "score": {
+        "skill_score": 18.333333333333332,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 40,
+        "overall_score": 49.83333333333333
+      },
+      "explanation": "This Data Scientist - ML Infrastructure position at Salesforce is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tensorflow, pytorch, mlflow. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology",
+        "Excellent location match"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "tensorflow",
+        "pytorch",
+        "mlflow",
+        "airflow",
+        "aws"
+      ],
+      "learning_suggestions": {
+        "tensorflow": [
+          "Take an online course in tensorflow",
+          "Practice tensorflow through projects",
+          "Read documentation and tutorials about tensorflow"
+        ],
+        "pytorch": [
+          "Take an online course in pytorch",
+          "Practice pytorch through projects",
+          "Read documentation and tutorials about pytorch"
+        ],
+        "mlflow": [
+          "Take an online course in mlflow",
+          "Practice mlflow through projects",
+          "Read documentation and tutorials about mlflow"
+        ],
+        "airflow": [
+          "Take an online course in airflow",
+          "Practice airflow through projects",
+          "Read documentation and tutorials about airflow"
+        ],
+        "aws": [
+          "Get AWS certification",
+          "Practice with free tier",
+          "Build cloud projects"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Senior Data Engineer",
+        "company": "Cognizant",
+        "location": "Bangalore, India",
+        "description": "Design and implement data pipelines for big data analytics. Work with Spark, Hadoop, and cloud data platforms.",
+        "skills_required": [
+          "spark",
+          "hadoop",
+          "python",
+          "sql",
+          "airflow",
+          "aws"
+        ],
+        "experience_level": "senior",
+        "salary_range": "₹10,00,000 - ₹16,00,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": "https://naukri.com/jobs/12351",
+        "posted_date": null,
+        "source": "naukri"
+      },
+      "score": {
+        "skill_score": 36.666666666666664,
+        "role_relevance_score": 35.55555555555555,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 20,
+        "overall_score": 48.97222222222222
+      },
+      "explanation": "This Senior Data Engineer position at Cognizant is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in spark, hadoop, airflow. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal",
+        "Salary may not meet expectations"
+      ],
+      "skill_gaps": [
+        "spark",
+        "hadoop",
+        "airflow",
+        "aws"
+      ],
+      "learning_suggestions": {
+        "spark": [
+          "Take an online course in spark",
+          "Practice spark through projects",
+          "Read documentation and tutorials about spark"
+        ],
+        "hadoop": [
+          "Take an online course in hadoop",
+          "Practice hadoop through projects",
+          "Read documentation and tutorials about hadoop"
+        ],
+        "airflow": [
+          "Take an online course in airflow",
+          "Practice airflow through projects",
+          "Read documentation and tutorials about airflow"
+        ],
+        "aws": [
+          "Get AWS certification",
+          "Practice with free tier",
+          "Build cloud projects"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Machine Learning Engineer",
+        "company": "OpenAI",
+        "location": "San Francisco, CA",
+        "description": "Research and deploy large language models. Strong background in deep learning and distributed systems.",
+        "skills_required": [
+          "pytorch",
+          "transformers",
+          "cuda",
+          "python",
+          "distributed systems"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$180,000 - $250,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "ziprecruiter"
+      },
+      "score": {
+        "skill_score": 22.0,
+        "role_relevance_score": 33.33333333333333,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 40,
+        "overall_score": 47.78333333333333
+      },
+      "explanation": "This Machine Learning Engineer position at OpenAI is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in pytorch, transformers, cuda. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology",
+        "Excellent location match"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "pytorch",
+        "transformers",
+        "cuda",
+        "distributed systems"
+      ],
+      "learning_suggestions": {
+        "pytorch": [
+          "Take an online course in pytorch",
+          "Practice pytorch through projects",
+          "Read documentation and tutorials about pytorch"
+        ],
+        "transformers": [
+          "Take an online course in transformers",
+          "Practice transformers through projects",
+          "Read documentation and tutorials about transformers"
+        ],
+        "cuda": [
+          "Take an online course in cuda",
+          "Practice cuda through projects",
+          "Read documentation and tutorials about cuda"
+        ],
+        "distributed systems": [
+          "Take an online course in distributed systems",
+          "Practice distributed systems through projects",
+          "Read documentation and tutorials about distributed systems"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "DevOps Engineer",
+        "company": "Tesla",
+        "location": "Austin, TX",
+        "description": "Automate deployment pipelines for electric vehicle software. Kubernetes, Terraform, and CI/CD expertise required.",
+        "skills_required": [
+          "kubernetes",
+          "terraform",
+          "jenkins",
+          "docker",
+          "aws",
+          "python"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$120,000 - $160,000",
+        "job_type": "full-time",
+        "work_type": "onsite",
+        "url": null,
+        "posted_date": null,
+        "source": "ziprecruiter"
+      },
+      "score": {
+        "skill_score": 18.333333333333332,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 80.0,
+        "overall_score": 38.888888888888886
+      },
+      "explanation": "This DevOps Engineer position at Tesla is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in kubernetes, terraform, jenkins. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "kubernetes",
+        "terraform",
+        "jenkins",
+        "docker",
+        "aws"
+      ],
+      "learning_suggestions": {
+        "kubernetes": [
+          "Take an online course in kubernetes",
+          "Practice kubernetes through projects",
+          "Read documentation and tutorials about kubernetes"
+        ],
+        "terraform": [
+          "Take an online course in terraform",
+          "Practice terraform through projects",
+          "Read documentation and tutorials about terraform"
+        ],
+        "jenkins": [
+          "Take an online course in jenkins",
+          "Practice jenkins through projects",
+          "Read documentation and tutorials about jenkins"
+        ],
+        "docker": [
+          "Learn containerization basics",
+          "Practice with Docker Hub",
+          "Deploy applications"
+        ],
+        "aws": [
+          "Get AWS certification",
+          "Practice with free tier",
+          "Build cloud projects"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Full Stack Engineer",
+        "company": "Notion",
+        "location": "San Francisco, CA",
+        "description": "Help build the future of productivity tools. Work with React, Node.js, and cutting-edge technologies.",
+        "skills_required": [
+          "react",
+          "node.js",
+          "typescript",
+          "postgresql",
+          "redis"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$130,000 - $180,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "startup-jobs"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 40,
+        "overall_score": 38.47222222222222
+      },
+      "explanation": "This Full Stack Engineer position at Notion is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in react, node.js, typescript. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Excellent location match"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "react",
+        "node.js",
+        "typescript",
+        "postgresql",
+        "redis"
+      ],
+      "learning_suggestions": {
+        "react": [
+          "Complete React tutorial",
+          "Build a portfolio website",
+          "Learn React hooks"
+        ],
+        "node.js": [
+          "Take an online course in node.js",
+          "Practice node.js through projects",
+          "Read documentation and tutorials about node.js"
+        ],
+        "typescript": [
+          "Take an online course in typescript",
+          "Practice typescript through projects",
+          "Read documentation and tutorials about typescript"
+        ],
+        "postgresql": [
+          "Take an online course in postgresql",
+          "Practice postgresql through projects",
+          "Read documentation and tutorials about postgresql"
+        ],
+        "redis": [
+          "Take an online course in redis",
+          "Practice redis through projects",
+          "Read documentation and tutorials about redis"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Full Stack Developer",
+        "company": "Microsoft",
+        "location": "Redmond, WA",
+        "description": "Develop cloud applications using .NET, React, and Azure. Join our collaborative team building the future of productivity.",
+        "skills_required": [
+          "c#",
+          "react",
+          "azure",
+          "sql server",
+          "typescript"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$100,000 - $140,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "ziprecruiter"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 90.0,
+        "overall_score": 35.25
+      },
+      "explanation": "This Full Stack Developer position at Microsoft is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in c#, react, azure. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "c#",
+        "react",
+        "azure",
+        "sql server",
+        "typescript"
+      ],
+      "learning_suggestions": {
+        "c#": [
+          "Take an online course in c#",
+          "Practice c# through projects",
+          "Read documentation and tutorials about c#"
+        ],
+        "react": [
+          "Complete React tutorial",
+          "Build a portfolio website",
+          "Learn React hooks"
+        ],
+        "azure": [
+          "Take an online course in azure",
+          "Practice azure through projects",
+          "Read documentation and tutorials about azure"
+        ],
+        "sql server": [
+          "Take an online course in sql server",
+          "Practice sql server through projects",
+          "Read documentation and tutorials about sql server"
+        ],
+        "typescript": [
+          "Take an online course in typescript",
+          "Practice typescript through projects",
+          "Read documentation and tutorials about typescript"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Software Developer",
+        "company": "TechStartup",
+        "location": "Seattle, WA",
+        "description": "Full-stack developer position working with modern technologies and agile methodologies.",
+        "skills_required": [
+          "javascript",
+          "react",
+          "node.js",
+          "mongodb",
+          "git"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$80,000 - $110,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": null,
+        "posted_date": null,
+        "source": "indeed"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 100,
+        "growth_score": 75,
+        "location_score": 30,
+        "salary_score": 95.0,
+        "overall_score": 32.5
+      },
+      "explanation": "This Software Developer position at TechStartup is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in javascript, react, node.js. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "javascript",
+        "react",
+        "node.js",
+        "mongodb",
+        "git"
+      ],
+      "learning_suggestions": {
+        "javascript": [
+          "Learn ES6+ features",
+          "Practice DOM manipulation",
+          "Build web applications"
+        ],
+        "react": [
+          "Complete React tutorial",
+          "Build a portfolio website",
+          "Learn React hooks"
+        ],
+        "node.js": [
+          "Take an online course in node.js",
+          "Practice node.js through projects",
+          "Read documentation and tutorials about node.js"
+        ],
+        "mongodb": [
+          "Take an online course in mongodb",
+          "Practice mongodb through projects",
+          "Read documentation and tutorials about mongodb"
+        ],
+        "git": [
+          "Learn Git commands",
+          "Practice with GitHub",
+          "Contribute to open source"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Senior React Developer",
+        "company": "Discord",
+        "location": "San Francisco, CA",
+        "description": "Build features for millions of gamers and communities. Real-time communication at scale.",
+        "skills_required": [
+          "react",
+          "typescript",
+          "websockets",
+          "node.js",
+          "redis"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$150,000 - $200,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "tech-startups"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 40,
+        "overall_score": 31.75
+      },
+      "explanation": "This Senior React Developer position at Discord is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in react, typescript, websockets. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology",
+        "Excellent location match"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "react",
+        "typescript",
+        "websockets",
+        "node.js",
+        "redis"
+      ],
+      "learning_suggestions": {
+        "react": [
+          "Complete React tutorial",
+          "Build a portfolio website",
+          "Learn React hooks"
+        ],
+        "typescript": [
+          "Take an online course in typescript",
+          "Practice typescript through projects",
+          "Read documentation and tutorials about typescript"
+        ],
+        "websockets": [
+          "Take an online course in websockets",
+          "Practice websockets through projects",
+          "Read documentation and tutorials about websockets"
+        ],
+        "node.js": [
+          "Take an online course in node.js",
+          "Practice node.js through projects",
+          "Read documentation and tutorials about node.js"
+        ],
+        "redis": [
+          "Take an online course in redis",
+          "Practice redis through projects",
+          "Read documentation and tutorials about redis"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Senior Software Engineer - Platform",
+        "company": "LinkedIn",
+        "location": "Sunnyvale, CA",
+        "description": "Build the platform that connects professionals worldwide. Work with large-scale distributed systems, microservices, and real-time data processing.",
+        "skills_required": [
+          "java",
+          "scala",
+          "kafka",
+          "hadoop",
+          "spark",
+          "kubernetes"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$160,000 - $220,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": "https://linkedin.com/jobs/12345",
+        "posted_date": null,
+        "source": "linkedin-api"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 70,
+        "growth_score": 75,
+        "location_score": 60,
+        "salary_score": 40,
+        "overall_score": 28.97222222222222
+      },
+      "explanation": "This Senior Software Engineer - Platform position at LinkedIn is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in java, scala, kafka. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "java",
+        "scala",
+        "kafka",
+        "hadoop",
+        "spark",
+        "kubernetes"
+      ],
+      "learning_suggestions": {
+        "java": [
+          "Take an online course in java",
+          "Practice java through projects",
+          "Read documentation and tutorials about java"
+        ],
+        "scala": [
+          "Take an online course in scala",
+          "Practice scala through projects",
+          "Read documentation and tutorials about scala"
+        ],
+        "kafka": [
+          "Take an online course in kafka",
+          "Practice kafka through projects",
+          "Read documentation and tutorials about kafka"
+        ],
+        "hadoop": [
+          "Take an online course in hadoop",
+          "Practice hadoop through projects",
+          "Read documentation and tutorials about hadoop"
+        ],
+        "spark": [
+          "Take an online course in spark",
+          "Practice spark through projects",
+          "Read documentation and tutorials about spark"
+        ],
+        "kubernetes": [
+          "Take an online course in kubernetes",
+          "Practice kubernetes through projects",
+          "Read documentation and tutorials about kubernetes"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Solutions Architect",
+        "company": "Microsoft",
+        "location": "Redmond, WA",
+        "description": "Design and implement enterprise cloud solutions. Work with Azure services and help customers migrate to cloud.",
+        "skills_required": [
+          "azure",
+          "cloud architecture",
+          "solution design",
+          "enterprise integration"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$140,000 - $180,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": "https://careerbuilder.com/jobs/12345",
+        "posted_date": null,
+        "source": "careerbuilder"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 40,
+        "overall_score": 28.25
+      },
+      "explanation": "This Solutions Architect position at Microsoft is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in azure, cloud architecture, solution design. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "azure",
+        "cloud architecture",
+        "solution design",
+        "enterprise integration"
+      ],
+      "learning_suggestions": {
+        "azure": [
+          "Take an online course in azure",
+          "Practice azure through projects",
+          "Read documentation and tutorials about azure"
+        ],
+        "cloud architecture": [
+          "Take an online course in cloud architecture",
+          "Practice cloud architecture through projects",
+          "Read documentation and tutorials about cloud architecture"
+        ],
+        "solution design": [
+          "Take an online course in solution design",
+          "Practice solution design through projects",
+          "Read documentation and tutorials about solution design"
+        ],
+        "enterprise integration": [
+          "Take an online course in enterprise integration",
+          "Practice enterprise integration through projects",
+          "Read documentation and tutorials about enterprise integration"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Senior Java Developer",
+        "company": "Oracle",
+        "location": "Austin, TX",
+        "description": "Develop enterprise Java applications for database management systems. Work with Spring, Hibernate, and microservices.",
+        "skills_required": [
+          "java",
+          "spring",
+          "hibernate",
+          "microservices",
+          "oracle database",
+          "rest api"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$125,000 - $160,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": "https://dice.com/jobs/12345",
+        "posted_date": null,
+        "source": "dice"
+      },
+      "score": {
+        "skill_score": 0.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 70,
+        "growth_score": 75,
+        "location_score": 30,
+        "salary_score": 40,
+        "overall_score": 25.25
+      },
+      "explanation": "This Senior Java Developer position at Oracle is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in java, spring, hibernate. The role offers good career growth opportunities.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "java",
+        "spring",
+        "hibernate",
+        "microservices",
+        "oracle database",
+        "rest api"
+      ],
+      "learning_suggestions": {
+        "java": [
+          "Take an online course in java",
+          "Practice java through projects",
+          "Read documentation and tutorials about java"
+        ],
+        "spring": [
+          "Take an online course in spring",
+          "Practice spring through projects",
+          "Read documentation and tutorials about spring"
+        ],
+        "hibernate": [
+          "Take an online course in hibernate",
+          "Practice hibernate through projects",
+          "Read documentation and tutorials about hibernate"
+        ],
+        "microservices": [
+          "Take an online course in microservices",
+          "Practice microservices through projects",
+          "Read documentation and tutorials about microservices"
+        ],
+        "oracle database": [
+          "Take an online course in oracle database",
+          "Practice oracle database through projects",
+          "Read documentation and tutorials about oracle database"
+        ],
+        "rest api": [
+          "Take an online course in rest api",
+          "Practice rest api through projects",
+          "Read documentation and tutorials about rest api"
+        ]
+      }
+    }
+  ],
+  "generated_at": "2025-09-22T18:09:42.174168"
+}

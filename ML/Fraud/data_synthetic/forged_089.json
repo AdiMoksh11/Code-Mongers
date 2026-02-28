@@ -1,0 +1,14 @@
+{
+  "issuer": "Fake University",
+  "creation_date": "2024-06-14T00:36:07.557371",
+  "modification_date": "2025-09-21T00:36:07.557371",
+  "producer": "Fake PDF Maker",
+  "creator": "Paint",
+  "title": "Certificate - Fake University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 467,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

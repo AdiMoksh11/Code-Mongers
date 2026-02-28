@@ -1,0 +1,78 @@
+🎯 CAREER ASSISTANT RECOMMENDATION REPORT
+============================================================
+Generated on: 2025-09-22 17:51:27
+User: Mid level professional
+Skills: python, machine learning, sql, data analysis, pandas...
+
+📊 EXECUTIVE SUMMARY
+------------------------------
+• Found 5 high-quality job matches
+• Average compatibility score: 65.4/100
+• Top recommendation: Full Stack Software Engineer, AI Features at Skylight
+
+🔍 RECOMMENDATION #1
+----------------------------------------
+Position: Full Stack Software Engineer, AI Features
+Company: Skylight
+Location: Unknown Location
+Overall Score: 65.8/100
+
+📝 Analysis: The Artificial Intelligence sector is experiencing high growth with very high job demand and increasing salaries. Key industry trends include Generative AI, MLOps, AI Ethics. Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+🚀 Growth Opportunities:
+   • Strong industry growth potential in Artificial Intelligence
+   • Opportunity to learn emerging skills: Large Language Models, Prompt Engineering, AI Safety
+
+============================================================
+
+🔍 RECOMMENDATION #2
+----------------------------------------
+Position: Software Developer (Python)
+Company: Lenme
+Location: Unknown Location
+Overall Score: 65.8/100
+
+📝 Analysis: Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+============================================================
+
+🔍 RECOMMENDATION #3
+----------------------------------------
+Position: Junior Software Developer (React Native)
+Company: Lenme
+Location: Unknown Location
+Overall Score: 65.8/100
+
+📝 Analysis: Key industry trends include JAMstack, Progressive Web Apps, WebAssembly. Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+🚀 Growth Opportunities:
+   • Strong industry growth potential in Web Development
+   • Opportunity to learn emerging skills: React, TypeScript, GraphQL
+
+============================================================
+
+🔍 RECOMMENDATION #4
+----------------------------------------
+Position: Software Engineer - Backend
+Company: Cardless
+Location: Unknown Location
+Overall Score: 65.0/100
+
+📝 Analysis: Key industry trends include JAMstack, Progressive Web Apps, WebAssembly. Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+🚀 Growth Opportunities:
+   • Strong industry growth potential in Web Development
+   • Opportunity to learn emerging skills: React, TypeScript, GraphQL
+
+============================================================
+
+🔍 RECOMMENDATION #5
+----------------------------------------
+Position: Software Engineer
+Company: Rokt
+Location: Unknown Location
+Overall Score: 65.0/100
+
+📝 Analysis: Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+============================================================

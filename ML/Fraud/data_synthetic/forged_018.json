@@ -1,0 +1,14 @@
+{
+  "issuer": "Sham College",
+  "creation_date": "2023-04-30T00:36:05.899840",
+  "modification_date": "2025-09-07T00:36:05.899840",
+  "producer": "Suspicious Tool",
+  "creator": "Unknown Application",
+  "title": "Certificate - Sham College",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 878,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

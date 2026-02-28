@@ -1,0 +1,14 @@
+{
+  "issuer": "Bogus University",
+  "creation_date": "2023-08-29T00:36:06.826386",
+  "modification_date": "2025-09-08T00:36:06.826386",
+  "producer": "PDFCreator",
+  "creator": "Unknown Application",
+  "title": "Certificate - Bogus University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 757,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

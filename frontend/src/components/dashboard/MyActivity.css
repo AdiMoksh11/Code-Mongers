@@ -1,0 +1,77 @@
+.my-activity-container {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.activity-item {
+  padding: 8px 0;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.activity-description {
+  font-weight: 500;
+  color: #333;
+  flex: 1;
+}
+
+.activity-meta {
+  color: #666;
+  font-size: 12px;
+}
+
+.activity-time {
+  margin-right: 16px;
+}
+
+.activity-metadata {
+  margin-top: 4px;
+  font-style: italic;
+}
+
+.activity-metadata span {
+  margin-right: 12px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .my-activity-container {
+    padding: 16px;
+  }
+  
+  .activity-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .activity-metadata span {
+    display: block;
+    margin-bottom: 2px;
+  }
+}
+
+/* Custom timeline styling */
+.ant-timeline-item-content {
+  margin-left: 32px;
+}
+
+.ant-timeline-item-tail {
+  border-left: 2px solid #f0f0f0;
+}
+
+.ant-timeline-item-head {
+  background-color: #fff;
+  border: 2px solid #f0f0f0;
+}
+
+.ant-timeline-item-head-custom {
+  padding: 4px;
+  border: none;
+}

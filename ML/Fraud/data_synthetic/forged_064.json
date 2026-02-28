@@ -1,0 +1,14 @@
+{
+  "issuer": "Hoax University",
+  "creation_date": "2022-11-30T00:36:06.931534",
+  "modification_date": "2025-08-28T00:36:06.931534",
+  "producer": "Unknown",
+  "creator": "Paint",
+  "title": "Certificate - Hoax University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 1029,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

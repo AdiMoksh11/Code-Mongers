@@ -1,0 +1,14 @@
+{
+  "issuer": "Sham College",
+  "creation_date": "2024-05-29T00:36:06.651838",
+  "modification_date": "2025-09-11T00:36:06.651838",
+  "producer": "Fake PDF Maker",
+  "creator": "Paint",
+  "title": "Certificate - Sham College",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 483,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

@@ -1,0 +1,14 @@
+{
+  "issuer": "Scam Institute",
+  "creation_date": "2024-10-14T00:36:07.532216",
+  "modification_date": "2025-09-02T00:36:07.532216",
+  "producer": "Unknown",
+  "creator": "Hacker Tool",
+  "title": "Certificate - Scam Institute",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 345,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

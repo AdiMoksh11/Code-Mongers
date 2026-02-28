@@ -1,0 +1,14 @@
+{
+  "issuer": "Hoax University",
+  "creation_date": "2025-05-23T00:36:05.557649",
+  "modification_date": "2025-09-10T00:36:05.557649",
+  "producer": "Fake PDF Maker",
+  "creator": "Notepad",
+  "title": "Certificate - Hoax University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 124,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

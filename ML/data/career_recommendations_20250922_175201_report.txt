@@ -1,0 +1,86 @@
+🎯 CAREER ASSISTANT RECOMMENDATION REPORT
+============================================================
+Generated on: 2025-09-22 17:52:01
+User: Mid level professional
+Skills: python, machine learning, sql, data analysis, pandas...
+
+📊 EXECUTIVE SUMMARY
+------------------------------
+• Found 5 high-quality job matches
+• Average compatibility score: 62.1/100
+• Top recommendation: Senior Data Scientist at Tech Corp
+
+🔍 RECOMMENDATION #1
+----------------------------------------
+Position: Senior Data Scientist
+Company: Tech Corp
+Location: San Francisco, CA
+Overall Score: 77.5/100
+
+📝 Analysis: The Artificial Intelligence sector is experiencing high growth with very high job demand and increasing salaries. Key industry trends include Generative AI, MLOps, AI Ethics. Your skill set covers 83% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression. The compensation is competitive - salary is 36% above market average.
+
+🚀 Growth Opportunities:
+   • Strong industry growth potential in Artificial Intelligence
+   • Opportunity to learn emerging skills: Large Language Models, Prompt Engineering, AI Safety
+   • Leadership and mentoring opportunities
+
+📚 Skills to Develop: statistics
+   statistics: Online course in statistics, Practice statistics with hands-on projects
+
+============================================================
+
+🔍 RECOMMENDATION #2
+----------------------------------------
+Position: Software Developer (Python)
+Company: Lenme
+Location: Unknown Location
+Overall Score: 65.8/100
+
+📝 Analysis: Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+============================================================
+
+🔍 RECOMMENDATION #3
+----------------------------------------
+Position: Python Developer
+Company: Open Systems Technologies
+Location: Unknown Location
+Overall Score: 65.8/100
+
+📝 Analysis: Your skill set covers 100% of the job requirements, indicating excellent technical fit. This represents a good step forward in your career progression.
+
+============================================================
+
+🔍 RECOMMENDATION #4
+----------------------------------------
+Position: Machine Learning Engineer
+Company: AI Startup
+Location: Remote
+Overall Score: 53.5/100
+
+📝 Analysis: The Artificial Intelligence sector is experiencing high growth with very high job demand and increasing salaries. Key industry trends include Generative AI, MLOps, AI Ethics. This role aligns perfectly with your current experience level.
+
+🚀 Growth Opportunities:
+   • Strong industry growth potential in Artificial Intelligence
+   • Opportunity to learn emerging skills: Large Language Models, Prompt Engineering, AI Safety
+
+📚 Skills to Develop: tensorflow, docker, aws, kubernetes, mlops
+   tensorflow: Online course in tensorflow, Practice tensorflow with hands-on projects
+   docker: Online course in docker, Practice docker with hands-on projects
+
+============================================================
+
+🔍 RECOMMENDATION #5
+----------------------------------------
+Position: Product Manager
+Company: Slack
+Location: San Francisco, CA
+Overall Score: 48.0/100
+
+📝 Analysis: This role aligns perfectly with your current experience level. The compensation is competitive - salary is 12% above market average.
+
+📚 Skills to Develop: product management, agile, jira
+   product management: Online course in product management, Practice product management with hands-on projects
+   agile: Online course in agile, Practice agile with hands-on projects
+
+============================================================

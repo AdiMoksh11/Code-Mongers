@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Fraud Detection System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.95);
+        }
+        .card-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px 15px 0 0 !important;
+            text-align: center;
+            padding: 20px;
+        }
+        .upload-area {
+            border: 3px dashed #667eea;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background: rgba(102, 126, 234, 0.05);
+        }
+        .upload-area:hover {
+            border-color: #764ba2;
+            background: rgba(102, 126, 234, 0.1);
+        }
+        .upload-area.dragover {
+            border-color: #28a745;
+            background: rgba(40, 167, 69, 0.1);
+        }
+        .btn-predict {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 25px;
+            padding: 12px 30px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn-predict:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .result-card {
+            margin-top: 20px;
+            border-left: 5px solid;
+            animation: slideIn 0.5s ease-out;
+        }
+        .result-authentic {
+            border-left-color: #28a745;
+            background: rgba(40, 167, 69, 0.1);
+        }
+        .result-forged {
+            border-left-color: #dc3545;
+            background: rgba(220, 53, 69, 0.1);
+        }
+        .result-error {
+            border-left-color: #ffc107;
+            background: rgba(255, 193, 7, 0.1);
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .confidence-bar {
+            height: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #e9ecef;
+        }
+        .confidence-fill {
+            height: 100%;
+            transition: width 0.5s ease;
+        }
+        .loading {
+            display: none;
+        }
+        .loading.show {
+            display: block;
+        }
+        .feature-badge {
+            font-size: 0.8em;
+            margin: 2px;
+        }
+        .metadata-table {
+            font-size: 0.9em;
+        }
+        .prediction-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container main-container">
+        <!-- Header -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h1 class="mb-0">
+                    <i class="fas fa-shield-alt"></i> 
+                    Certificate Fraud Detection System
+                </h1>
+                <p class="mb-0 mt-2">Upload your certificate to verify its authenticity using AI</p>
+            </div>
+        </div>
+
+        <!-- Upload Form -->
+        <div class="card">
+            <div class="card-body">
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <div class="upload-area" id="uploadArea">
+                        <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
+                        <h4>Drop your certificate here or click to browse</h4>
+                        <p class="text-muted">Supported formats: PDF, PNG, JPG, JPEG, TIFF, BMP</p>
+                        <p class="text-muted">Maximum file size: 10MB</p>
+                        <input type="file" id="fileInput" name="file" accept=".pdf,.png,.jpg,.jpeg,.tiff,.bmp" style="display: none;">
+                    </div>
+                    
+                    <div class="mt-4 text-center">
+                        <button type="submit" class="btn btn-primary btn-predict" id="predictBtn" disabled>
+                            <i class="fas fa-search"></i> Analyze Certificate
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Loading Indicator -->
+                <div class="loading text-center" id="loading">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Analyzing...</span>
+                    </div>
+                    <p class="mt-2">Analyzing certificate... Please wait.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results -->
+        <div id="results"></div>
+
+        <!-- Info Card -->
+        <div class="card mt-4">
+            <div class="card-body">
+                <h5><i class="fas fa-info-circle"></i> How it works</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check text-success"></i> Upload your certificate (PDF or image)</li>
+                    <li><i class="fas fa-check text-success"></i> AI analyzes metadata and content</li>
+                    <li><i class="fas fa-check text-success"></i> Get instant authenticity prediction</li>
+                    <li><i class="fas fa-check text-success"></i> View detailed analysis and confidence score</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const uploadForm = document.getElementById('uploadForm');
+        const predictBtn = document.getElementById('predictBtn');
+        const loading = document.getElementById('loading');
+        const results = document.getElementById('results');
+
+        // File upload handling
+        uploadArea.addEventListener('click', () => fileInput.click());
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                fileInput.files = files;
+                handleFileSelect();
+            }
+        });
+
+        fileInput.addEventListener('change', handleFileSelect);
+
+        function handleFileSelect() {
+            const file = fileInput.files[0];
+            if (file) {
+                // Validate file size (10MB limit)
+                if (file.size > 10 * 1024 * 1024) {
+                    alert('File size must be less than 10MB');
+                    return;
+                }
+
+                // Update UI
+                uploadArea.innerHTML = `
+                    <i class="fas fa-file-check fa-3x text-success mb-3"></i>
+                    <h5>${file.name}</h5>
+                    <p class="text-muted">${(file.size / 1024).toFixed(1)} KB</p>
+                    <p class="text-success">Ready to analyze</p>
+                `;
+                predictBtn.disabled = false;
+            }
+        }
+
+        // Form submission
+        uploadForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            if (!fileInput.files[0]) {
+                alert('Please select a file first');
+                return;
+            }
+
+            // Show loading
+            loading.classList.add('show');
+            results.innerHTML = '';
+            predictBtn.disabled = true;
+
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+                
+                if (response.ok) {
+                    displayResults(result);
+                } else {
+                    displayError(result.detail || 'An error occurred');
+                }
+            } catch (error) {
+                displayError('Network error: ' + error.message);
+            } finally {
+                loading.classList.remove('show');
+                predictBtn.disabled = false;
+            }
+        });
+
+        function displayResults(result) {
+            const prediction = result.prediction;
+            const confidence = result.confidence;
+            const isAuthentic = prediction === 'AUTHENTIC';
+            
+            const resultClass = result.error ? 'result-error' : 
+                               isAuthentic ? 'result-authentic' : 'result-forged';
+            
+            const iconClass = result.error ? 'fas fa-exclamation-triangle text-warning' :
+                             isAuthentic ? 'fas fa-check-circle text-success' : 'fas fa-times-circle text-danger';
+            
+            const confidenceColor = isAuthentic ? '#28a745' : '#dc3545';
+
+            let featuresHtml = '';
+            if (result.features) {
+                const featureNames = result.model_type === 'enhanced' ? 
+                    ['Creation Delta', 'Producer Mismatch', 'Unusual Editor', 'Issuer Length', 
+                     'Suspicious Issuer', 'Title Length', 'Keyword Count', 'Producer Length', 
+                     'Creator Length', 'Subject Length'] :
+                    ['Creation Delta', 'Producer Mismatch', 'Unusual Editor', 'Issuer Length', 'Suspicious Issuer'];
+                
+                featuresHtml = result.features.map((feature, index) => 
+                    `<span class="badge bg-secondary feature-badge">${featureNames[index]}: ${feature}</span>`
+                ).join(' ');
+            }
+
+            let metadataHtml = '';
+            if (result.metadata) {
+                const importantMetadata = {
+                    'Issuer': result.metadata.issuer,
+                    'Creation Age': `${result.metadata.creation_date_delta} days`,
+                    'Producer': result.metadata.producer,
+                    'Creator': result.metadata.creator,
+                    'File Type': result.file_type.toUpperCase()
+                };
+                
+                metadataHtml = Object.entries(importantMetadata).map(([key, value]) => 
+                    `<tr><td><strong>${key}</strong></td><td>${value || 'Unknown'}</td></tr>`
+                ).join('');
+            }
+
+            results.innerHTML = `
+                <div class="card result-card ${resultClass}">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <div class="prediction-icon">
+                                    <i class="${iconClass}"></i>
+                                </div>
+                                <h3>${result.error ? 'Error' : prediction}</h3>
+                                ${!result.error ? `
+                                    <p class="lead">Confidence: ${(confidence * 100).toFixed(1)}%</p>
+                                    <div class="confidence-bar mb-3">
+                                        <div class="confidence-fill" style="width: ${confidence * 100}%; background-color: ${confidenceColor};"></div>
+                                    </div>
+                                ` : ''}
+                            </div>
+                            <div class="col-md-6">
+                                ${!result.error ? `
+                                    <h5><i class="fas fa-chart-bar"></i> Analysis Details</h5>
+                                    <p><strong>Authentic Probability:</strong> ${(result.probability_authentic * 100).toFixed(1)}%</p>
+                                    <p><strong>Forged Probability:</strong> ${(result.probability_forged * 100).toFixed(1)}%</p>
+                                    <p><strong>Model Type:</strong> ${result.model_type.charAt(0).toUpperCase() + result.model_type.slice(1)}</p>
+                                    ${result.anomaly_score !== undefined ? `<p><strong>Anomaly Score:</strong> ${result.anomaly_score.toFixed(4)}</p>` : ''}
+                                ` : `<p class="text-danger">${result.error}</p>`}
+                            </div>
+                        </div>
+                        
+                        ${!result.error && featuresHtml ? `
+                            <hr>
+                            <h6><i class="fas fa-cogs"></i> Feature Analysis</h6>
+                            <div class="mb-3">${featuresHtml}</div>
+                        ` : ''}
+                        
+                        ${!result.error && metadataHtml ? `
+                            <hr>
+                            <h6><i class="fas fa-info"></i> Document Metadata</h6>
+                            <table class="table table-sm metadata-table">
+                                <tbody>${metadataHtml}</tbody>
+                            </table>
+                        ` : ''}
+                        
+                        ${!result.error ? `
+                            <hr>
+                            <div class="row text-center">
+                                <div class="col-4">
+                                    <small class="text-muted">File: ${result.filename}</small>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Size: ${result.file_size}</small>
+                                </div>
+                                <div class="col-4">
+                                    <small class="text-muted">Type: ${result.file_type.toUpperCase()}</small>
+                                </div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayError(message) {
+            results.innerHTML = `
+                <div class="card result-card result-error">
+                    <div class="card-body text-center">
+                        <i class="fas fa-exclamation-triangle fa-3x text-warning mb-3"></i>
+                        <h4>Error</h4>
+                        <p class="text-danger">${message}</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Reset function
+        function resetForm() {
+            fileInput.value = '';
+            uploadArea.innerHTML = `
+                <i class="fas fa-cloud-upload-alt fa-3x text-primary mb-3"></i>
+                <h4>Drop your certificate here or click to browse</h4>
+                <p class="text-muted">Supported formats: PDF, PNG, JPG, JPEG, TIFF, BMP</p>
+                <p class="text-muted">Maximum file size: 10MB</p>
+            `;
+            predictBtn.disabled = true;
+            results.innerHTML = '';
+        }
+    </script>
+</body>
+</html>

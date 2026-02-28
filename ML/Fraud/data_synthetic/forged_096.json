@@ -1,0 +1,14 @@
+{
+  "issuer": "Fake University",
+  "creation_date": "2023-04-13T00:36:07.742171",
+  "modification_date": "2025-09-06T00:36:07.742171",
+  "producer": "Suspicious Tool",
+  "creator": "Notepad",
+  "title": "Certificate - Fake University",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 895,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

@@ -1,0 +1,1007 @@
+{
+  "total_files": 200,
+  "authentic_count": 100,
+  "forged_count": 100,
+  "files": [
+    {
+      "image": "..\\data_synthetic\\authentic_001.png",
+      "metadata": "..\\data_synthetic\\authentic_001.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_002.png",
+      "metadata": "..\\data_synthetic\\authentic_002.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_003.png",
+      "metadata": "..\\data_synthetic\\authentic_003.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_004.png",
+      "metadata": "..\\data_synthetic\\authentic_004.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_005.png",
+      "metadata": "..\\data_synthetic\\authentic_005.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_006.png",
+      "metadata": "..\\data_synthetic\\authentic_006.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_007.png",
+      "metadata": "..\\data_synthetic\\authentic_007.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_008.png",
+      "metadata": "..\\data_synthetic\\authentic_008.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_009.png",
+      "metadata": "..\\data_synthetic\\authentic_009.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_010.png",
+      "metadata": "..\\data_synthetic\\authentic_010.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_011.png",
+      "metadata": "..\\data_synthetic\\authentic_011.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_012.png",
+      "metadata": "..\\data_synthetic\\authentic_012.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_013.png",
+      "metadata": "..\\data_synthetic\\authentic_013.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_014.png",
+      "metadata": "..\\data_synthetic\\authentic_014.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_015.png",
+      "metadata": "..\\data_synthetic\\authentic_015.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_016.png",
+      "metadata": "..\\data_synthetic\\authentic_016.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_017.png",
+      "metadata": "..\\data_synthetic\\authentic_017.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_018.png",
+      "metadata": "..\\data_synthetic\\authentic_018.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_019.png",
+      "metadata": "..\\data_synthetic\\authentic_019.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_020.png",
+      "metadata": "..\\data_synthetic\\authentic_020.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_021.png",
+      "metadata": "..\\data_synthetic\\authentic_021.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_022.png",
+      "metadata": "..\\data_synthetic\\authentic_022.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_023.png",
+      "metadata": "..\\data_synthetic\\authentic_023.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_024.png",
+      "metadata": "..\\data_synthetic\\authentic_024.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_025.png",
+      "metadata": "..\\data_synthetic\\authentic_025.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_026.png",
+      "metadata": "..\\data_synthetic\\authentic_026.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_027.png",
+      "metadata": "..\\data_synthetic\\authentic_027.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_028.png",
+      "metadata": "..\\data_synthetic\\authentic_028.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_029.png",
+      "metadata": "..\\data_synthetic\\authentic_029.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_030.png",
+      "metadata": "..\\data_synthetic\\authentic_030.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_031.png",
+      "metadata": "..\\data_synthetic\\authentic_031.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_032.png",
+      "metadata": "..\\data_synthetic\\authentic_032.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_033.png",
+      "metadata": "..\\data_synthetic\\authentic_033.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_034.png",
+      "metadata": "..\\data_synthetic\\authentic_034.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_035.png",
+      "metadata": "..\\data_synthetic\\authentic_035.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_036.png",
+      "metadata": "..\\data_synthetic\\authentic_036.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_037.png",
+      "metadata": "..\\data_synthetic\\authentic_037.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_038.png",
+      "metadata": "..\\data_synthetic\\authentic_038.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_039.png",
+      "metadata": "..\\data_synthetic\\authentic_039.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_040.png",
+      "metadata": "..\\data_synthetic\\authentic_040.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_041.png",
+      "metadata": "..\\data_synthetic\\authentic_041.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_042.png",
+      "metadata": "..\\data_synthetic\\authentic_042.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_043.png",
+      "metadata": "..\\data_synthetic\\authentic_043.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_044.png",
+      "metadata": "..\\data_synthetic\\authentic_044.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_045.png",
+      "metadata": "..\\data_synthetic\\authentic_045.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_046.png",
+      "metadata": "..\\data_synthetic\\authentic_046.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_047.png",
+      "metadata": "..\\data_synthetic\\authentic_047.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_048.png",
+      "metadata": "..\\data_synthetic\\authentic_048.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_049.png",
+      "metadata": "..\\data_synthetic\\authentic_049.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_050.png",
+      "metadata": "..\\data_synthetic\\authentic_050.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_051.png",
+      "metadata": "..\\data_synthetic\\authentic_051.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_052.png",
+      "metadata": "..\\data_synthetic\\authentic_052.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_053.png",
+      "metadata": "..\\data_synthetic\\authentic_053.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_054.png",
+      "metadata": "..\\data_synthetic\\authentic_054.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_055.png",
+      "metadata": "..\\data_synthetic\\authentic_055.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_056.png",
+      "metadata": "..\\data_synthetic\\authentic_056.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_057.png",
+      "metadata": "..\\data_synthetic\\authentic_057.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_058.png",
+      "metadata": "..\\data_synthetic\\authentic_058.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_059.png",
+      "metadata": "..\\data_synthetic\\authentic_059.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_060.png",
+      "metadata": "..\\data_synthetic\\authentic_060.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_061.png",
+      "metadata": "..\\data_synthetic\\authentic_061.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_062.png",
+      "metadata": "..\\data_synthetic\\authentic_062.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_063.png",
+      "metadata": "..\\data_synthetic\\authentic_063.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_064.png",
+      "metadata": "..\\data_synthetic\\authentic_064.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_065.png",
+      "metadata": "..\\data_synthetic\\authentic_065.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_066.png",
+      "metadata": "..\\data_synthetic\\authentic_066.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_067.png",
+      "metadata": "..\\data_synthetic\\authentic_067.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_068.png",
+      "metadata": "..\\data_synthetic\\authentic_068.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_069.png",
+      "metadata": "..\\data_synthetic\\authentic_069.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_070.png",
+      "metadata": "..\\data_synthetic\\authentic_070.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_071.png",
+      "metadata": "..\\data_synthetic\\authentic_071.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_072.png",
+      "metadata": "..\\data_synthetic\\authentic_072.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_073.png",
+      "metadata": "..\\data_synthetic\\authentic_073.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_074.png",
+      "metadata": "..\\data_synthetic\\authentic_074.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_075.png",
+      "metadata": "..\\data_synthetic\\authentic_075.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_076.png",
+      "metadata": "..\\data_synthetic\\authentic_076.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_077.png",
+      "metadata": "..\\data_synthetic\\authentic_077.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_078.png",
+      "metadata": "..\\data_synthetic\\authentic_078.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_079.png",
+      "metadata": "..\\data_synthetic\\authentic_079.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_080.png",
+      "metadata": "..\\data_synthetic\\authentic_080.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_081.png",
+      "metadata": "..\\data_synthetic\\authentic_081.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_082.png",
+      "metadata": "..\\data_synthetic\\authentic_082.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_083.png",
+      "metadata": "..\\data_synthetic\\authentic_083.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_084.png",
+      "metadata": "..\\data_synthetic\\authentic_084.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_085.png",
+      "metadata": "..\\data_synthetic\\authentic_085.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_086.png",
+      "metadata": "..\\data_synthetic\\authentic_086.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_087.png",
+      "metadata": "..\\data_synthetic\\authentic_087.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_088.png",
+      "metadata": "..\\data_synthetic\\authentic_088.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_089.png",
+      "metadata": "..\\data_synthetic\\authentic_089.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_090.png",
+      "metadata": "..\\data_synthetic\\authentic_090.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_091.png",
+      "metadata": "..\\data_synthetic\\authentic_091.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_092.png",
+      "metadata": "..\\data_synthetic\\authentic_092.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_093.png",
+      "metadata": "..\\data_synthetic\\authentic_093.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_094.png",
+      "metadata": "..\\data_synthetic\\authentic_094.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_095.png",
+      "metadata": "..\\data_synthetic\\authentic_095.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_096.png",
+      "metadata": "..\\data_synthetic\\authentic_096.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_097.png",
+      "metadata": "..\\data_synthetic\\authentic_097.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_098.png",
+      "metadata": "..\\data_synthetic\\authentic_098.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_099.png",
+      "metadata": "..\\data_synthetic\\authentic_099.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\authentic_100.png",
+      "metadata": "..\\data_synthetic\\authentic_100.json",
+      "label": "authentic"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_001.png",
+      "metadata": "..\\data_synthetic\\forged_001.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_002.png",
+      "metadata": "..\\data_synthetic\\forged_002.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_003.png",
+      "metadata": "..\\data_synthetic\\forged_003.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_004.png",
+      "metadata": "..\\data_synthetic\\forged_004.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_005.png",
+      "metadata": "..\\data_synthetic\\forged_005.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_006.png",
+      "metadata": "..\\data_synthetic\\forged_006.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_007.png",
+      "metadata": "..\\data_synthetic\\forged_007.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_008.png",
+      "metadata": "..\\data_synthetic\\forged_008.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_009.png",
+      "metadata": "..\\data_synthetic\\forged_009.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_010.png",
+      "metadata": "..\\data_synthetic\\forged_010.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_011.png",
+      "metadata": "..\\data_synthetic\\forged_011.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_012.png",
+      "metadata": "..\\data_synthetic\\forged_012.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_013.png",
+      "metadata": "..\\data_synthetic\\forged_013.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_014.png",
+      "metadata": "..\\data_synthetic\\forged_014.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_015.png",
+      "metadata": "..\\data_synthetic\\forged_015.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_016.png",
+      "metadata": "..\\data_synthetic\\forged_016.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_017.png",
+      "metadata": "..\\data_synthetic\\forged_017.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_018.png",
+      "metadata": "..\\data_synthetic\\forged_018.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_019.png",
+      "metadata": "..\\data_synthetic\\forged_019.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_020.png",
+      "metadata": "..\\data_synthetic\\forged_020.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_021.png",
+      "metadata": "..\\data_synthetic\\forged_021.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_022.png",
+      "metadata": "..\\data_synthetic\\forged_022.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_023.png",
+      "metadata": "..\\data_synthetic\\forged_023.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_024.png",
+      "metadata": "..\\data_synthetic\\forged_024.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_025.png",
+      "metadata": "..\\data_synthetic\\forged_025.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_026.png",
+      "metadata": "..\\data_synthetic\\forged_026.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_027.png",
+      "metadata": "..\\data_synthetic\\forged_027.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_028.png",
+      "metadata": "..\\data_synthetic\\forged_028.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_029.png",
+      "metadata": "..\\data_synthetic\\forged_029.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_030.png",
+      "metadata": "..\\data_synthetic\\forged_030.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_031.png",
+      "metadata": "..\\data_synthetic\\forged_031.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_032.png",
+      "metadata": "..\\data_synthetic\\forged_032.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_033.png",
+      "metadata": "..\\data_synthetic\\forged_033.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_034.png",
+      "metadata": "..\\data_synthetic\\forged_034.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_035.png",
+      "metadata": "..\\data_synthetic\\forged_035.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_036.png",
+      "metadata": "..\\data_synthetic\\forged_036.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_037.png",
+      "metadata": "..\\data_synthetic\\forged_037.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_038.png",
+      "metadata": "..\\data_synthetic\\forged_038.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_039.png",
+      "metadata": "..\\data_synthetic\\forged_039.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_040.png",
+      "metadata": "..\\data_synthetic\\forged_040.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_041.png",
+      "metadata": "..\\data_synthetic\\forged_041.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_042.png",
+      "metadata": "..\\data_synthetic\\forged_042.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_043.png",
+      "metadata": "..\\data_synthetic\\forged_043.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_044.png",
+      "metadata": "..\\data_synthetic\\forged_044.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_045.png",
+      "metadata": "..\\data_synthetic\\forged_045.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_046.png",
+      "metadata": "..\\data_synthetic\\forged_046.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_047.png",
+      "metadata": "..\\data_synthetic\\forged_047.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_048.png",
+      "metadata": "..\\data_synthetic\\forged_048.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_049.png",
+      "metadata": "..\\data_synthetic\\forged_049.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_050.png",
+      "metadata": "..\\data_synthetic\\forged_050.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_051.png",
+      "metadata": "..\\data_synthetic\\forged_051.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_052.png",
+      "metadata": "..\\data_synthetic\\forged_052.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_053.png",
+      "metadata": "..\\data_synthetic\\forged_053.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_054.png",
+      "metadata": "..\\data_synthetic\\forged_054.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_055.png",
+      "metadata": "..\\data_synthetic\\forged_055.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_056.png",
+      "metadata": "..\\data_synthetic\\forged_056.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_057.png",
+      "metadata": "..\\data_synthetic\\forged_057.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_058.png",
+      "metadata": "..\\data_synthetic\\forged_058.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_059.png",
+      "metadata": "..\\data_synthetic\\forged_059.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_060.png",
+      "metadata": "..\\data_synthetic\\forged_060.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_061.png",
+      "metadata": "..\\data_synthetic\\forged_061.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_062.png",
+      "metadata": "..\\data_synthetic\\forged_062.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_063.png",
+      "metadata": "..\\data_synthetic\\forged_063.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_064.png",
+      "metadata": "..\\data_synthetic\\forged_064.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_065.png",
+      "metadata": "..\\data_synthetic\\forged_065.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_066.png",
+      "metadata": "..\\data_synthetic\\forged_066.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_067.png",
+      "metadata": "..\\data_synthetic\\forged_067.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_068.png",
+      "metadata": "..\\data_synthetic\\forged_068.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_069.png",
+      "metadata": "..\\data_synthetic\\forged_069.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_070.png",
+      "metadata": "..\\data_synthetic\\forged_070.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_071.png",
+      "metadata": "..\\data_synthetic\\forged_071.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_072.png",
+      "metadata": "..\\data_synthetic\\forged_072.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_073.png",
+      "metadata": "..\\data_synthetic\\forged_073.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_074.png",
+      "metadata": "..\\data_synthetic\\forged_074.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_075.png",
+      "metadata": "..\\data_synthetic\\forged_075.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_076.png",
+      "metadata": "..\\data_synthetic\\forged_076.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_077.png",
+      "metadata": "..\\data_synthetic\\forged_077.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_078.png",
+      "metadata": "..\\data_synthetic\\forged_078.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_079.png",
+      "metadata": "..\\data_synthetic\\forged_079.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_080.png",
+      "metadata": "..\\data_synthetic\\forged_080.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_081.png",
+      "metadata": "..\\data_synthetic\\forged_081.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_082.png",
+      "metadata": "..\\data_synthetic\\forged_082.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_083.png",
+      "metadata": "..\\data_synthetic\\forged_083.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_084.png",
+      "metadata": "..\\data_synthetic\\forged_084.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_085.png",
+      "metadata": "..\\data_synthetic\\forged_085.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_086.png",
+      "metadata": "..\\data_synthetic\\forged_086.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_087.png",
+      "metadata": "..\\data_synthetic\\forged_087.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_088.png",
+      "metadata": "..\\data_synthetic\\forged_088.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_089.png",
+      "metadata": "..\\data_synthetic\\forged_089.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_090.png",
+      "metadata": "..\\data_synthetic\\forged_090.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_091.png",
+      "metadata": "..\\data_synthetic\\forged_091.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_092.png",
+      "metadata": "..\\data_synthetic\\forged_092.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_093.png",
+      "metadata": "..\\data_synthetic\\forged_093.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_094.png",
+      "metadata": "..\\data_synthetic\\forged_094.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_095.png",
+      "metadata": "..\\data_synthetic\\forged_095.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_096.png",
+      "metadata": "..\\data_synthetic\\forged_096.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_097.png",
+      "metadata": "..\\data_synthetic\\forged_097.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_098.png",
+      "metadata": "..\\data_synthetic\\forged_098.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_099.png",
+      "metadata": "..\\data_synthetic\\forged_099.json",
+      "label": "forged"
+    },
+    {
+      "image": "..\\data_synthetic\\forged_100.png",
+      "metadata": "..\\data_synthetic\\forged_100.json",
+      "label": "forged"
+    }
+  ]
+}

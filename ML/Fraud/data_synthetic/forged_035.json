@@ -1,0 +1,14 @@
+{
+  "issuer": "Phony Institute",
+  "creation_date": "2024-09-29T00:36:06.286951",
+  "modification_date": "2025-09-11T00:36:06.286951",
+  "producer": "Fake PDF Maker",
+  "creator": "Notepad",
+  "title": "Certificate - Phony Institute",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 360,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

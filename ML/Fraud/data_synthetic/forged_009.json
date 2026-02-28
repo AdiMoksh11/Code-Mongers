@@ -1,0 +1,14 @@
+{
+  "issuer": "Counterfeit College",
+  "creation_date": "2023-12-05T00:36:05.703938",
+  "modification_date": "2025-09-19T00:36:05.703938",
+  "producer": "Fake PDF Maker",
+  "creator": "Unknown Application",
+  "title": "Certificate - Counterfeit College",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 659,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

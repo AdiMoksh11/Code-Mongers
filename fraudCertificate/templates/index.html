@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Authenticity Checker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .upload-area {
+            border: 3px dashed #ddd;
+            border-radius: 15px;
+            padding: 60px 20px;
+            text-align: center;
+            background: #f8f9fa;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .upload-area:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+        
+        .upload-area.dragover {
+            border-color: #667eea;
+            background: #e6f0ff;
+        }
+        
+        .upload-icon {
+            font-size: 4rem;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+        
+        .upload-text {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .upload-subtext {
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        #fileInput {
+            display: none;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            display: block;
+            margin: 20px auto;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .result {
+            display: none;
+            margin-top: 30px;
+        }
+        
+        .result-card {
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .result-real {
+            background: #e8f5e8;
+            border: 3px solid #4caf50;
+        }
+        
+        .result-fake {
+            background: #ffebee;
+            border: 3px solid #f44336;
+        }
+        
+        .result-title {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .result-real .result-title {
+            color: #2e7d32;
+        }
+        
+        .result-fake .result-title {
+            color: #d32f2f;
+        }
+        
+        .result-subtitle {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .confidence {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .images-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .image-card {
+            text-align: center;
+        }
+        
+        .image-card img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .image-card h4 {
+            margin: 15px 0 5px;
+            color: #333;
+        }
+        
+        .disclaimer {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .disclaimer h4 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .disclaimer ul {
+            color: #856404;
+            margin-left: 20px;
+        }
+        
+        .disclaimer li {
+            margin-bottom: 5px;
+        }
+        
+        .error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .model-status {
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        
+        .model-ready {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        
+        .model-not-ready {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        
+        @media (max-width: 768px) {
+            .images-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 Certificate Authenticity Checker</h1>
+            <p>Upload your certificate to check if it's real or fake</p>
+        </div>
+        
+        <div class="content">
+            {% if model_loaded %}
+            <div class="model-status model-ready">
+                ✅ <strong>Model Ready</strong> - Forensics detection system loaded successfully
+            </div>
+            {% else %}
+            <div class="model-status model-not-ready">
+                ❌ <strong>Model Not Ready</strong> - Please download pretrained weights and place them in weights/ folder<br>
+                <a href="https://drive.google.com/file/d/1scOAVxvqYSfRi4s7s0crk2Ieqn5Cm6r6/view?usp=sharing" target="_blank">Download weights here</a>
+            </div>
+            {% endif %}
+            
+            <div class="upload-area" onclick="document.getElementById('fileInput').click();">
+                <div class="upload-icon">📤</div>
+                <div class="upload-text">Drag and drop your certificate here</div>
+                <div class="upload-subtext">or click to browse files</div>
+                <div class="upload-subtext">Supported: PNG, JPG, JPEG, TIFF, PDF</div>
+            </div>
+            
+            <input type="file" id="fileInput" accept=".png,.jpg,.jpeg,.tiff,.tif,.pdf" />
+            
+            <button class="btn" id="analyzeBtn" onclick="analyzeImage()" disabled>
+                🔍 Check Certificate Authenticity
+            </button>
+            
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>🔄 Analyzing your certificate...</p>
+            </div>
+            
+            <div class="result" id="result">
+                <!-- Results will be inserted here -->
+            </div>
+            
+            <div class="disclaimer">
+                <h4>⚠️ Important Disclaimer</h4>
+                <ul>
+                    <li><strong>25% Threshold Rule:</strong> ≥25% suspicious areas = FAKE, <25% = REAL</li>
+                    <li><strong>"REAL"</strong> means no significant digital editing was detected</li>
+                    <li><strong>"FAKE"</strong> means substantial digital manipulation was found</li>
+                    <li>This tool detects image manipulation, not content authenticity</li>
+                    <li>Always verify with the issuing authority for complete authenticity</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const uploadArea = document.querySelector('.upload-area');
+        const loading = document.getElementById('loading');
+        const result = document.getElementById('result');
+        
+        let selectedFile = null;
+        
+        // File input change handler
+        fileInput.addEventListener('change', function(e) {
+            if (e.target.files.length > 0) {
+                selectedFile = e.target.files[0];
+                analyzeBtn.disabled = false;
+                uploadArea.style.borderColor = '#4caf50';
+                uploadArea.innerHTML = `
+                    <div class="upload-icon">✅</div>
+                    <div class="upload-text">Certificate selected: ${selectedFile.name}</div>
+                    <div class="upload-subtext">Ready to analyze</div>
+                `;
+            }
+        });
+        
+        // Drag and drop handlers
+        uploadArea.addEventListener('dragover', function(e) {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        
+        uploadArea.addEventListener('dragleave', function(e) {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+        });
+        
+        uploadArea.addEventListener('drop', function(e) {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                selectedFile = files[0];
+                fileInput.files = files;
+                analyzeBtn.disabled = false;
+                uploadArea.style.borderColor = '#4caf50';
+                uploadArea.innerHTML = `
+                    <div class="upload-icon">✅</div>
+                    <div class="upload-text">Certificate selected: ${selectedFile.name}</div>
+                    <div class="upload-subtext">Ready to analyze</div>
+                `;
+            }
+        });
+        
+        function analyzeImage() {
+            if (!selectedFile || !{{ model_loaded|lower }}) {
+                return;
+            }
+            
+            // Show loading
+            loading.style.display = 'block';
+            result.style.display = 'none';
+            analyzeBtn.disabled = true;
+            
+            // Prepare form data
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+            
+            // Send request
+            fetch('/analyze', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                loading.style.display = 'none';
+                analyzeBtn.disabled = false;
+                
+                if (data.error) {
+                    result.innerHTML = `<div class="error">${data.error}</div>`;
+                } else {
+                    showResults(data);
+                }
+                result.style.display = 'block';
+            })
+            .catch(error => {
+                loading.style.display = 'none';
+                analyzeBtn.disabled = false;
+                result.innerHTML = `<div class="error">Analysis failed: ${error.message}</div>`;
+                result.style.display = 'block';
+            });
+        }
+        
+        function showResults(data) {
+            const resultClass = data.is_fake ? 'result-fake' : 'result-real';
+            const resultTitle = data.is_fake ? '❌ FAKE CERTIFICATE' : '✅ REAL CERTIFICATE';
+            const resultSubtitle = data.is_fake ? 'Digital manipulation detected' : 'No digital manipulation detected';
+            
+            let fileTypeInfo = data.file_type ? `<div style="font-size: 0.9rem; color: #666; margin-bottom: 10px;">${data.file_type}</div>` : '';
+            
+            let imagesHtml = '';
+            if (data.is_fake) {
+                imagesHtml = `
+                    <div class="images-container">
+                        <div class="image-card">
+                            <h4>Original Certificate</h4>
+                            <img src="${data.original_image}" alt="Original Certificate" />
+                        </div>
+                        <div class="image-card">
+                            <h4>Manipulation Map</h4>
+                            <img src="${data.heatmap_image}" alt="Heatmap" />
+                            <p style="font-size: 0.9rem; color: #666; margin-top: 5px;">Bright areas = Suspicious</p>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 15px; color: #f44336;">
+                        ⚠️ <strong>${data.suspicious_percentage.toFixed(1)}%</strong> suspicious areas detected (Threshold: ≥25% = FAKE)
+                    </div>
+                `;
+            } else {
+                imagesHtml = `
+                    <div style="text-align: center; margin-top: 15px; color: #4caf50;">
+                        🎉 Your certificate appears to be authentic!<br>
+                        <small style="color: #666;">${data.suspicious_percentage.toFixed(1)}% suspicious areas (Below 25% threshold = REAL)</small>
+                    </div>
+                `;
+            }
+            
+            result.innerHTML = `
+                <div class="result-card ${resultClass}">
+                    ${fileTypeInfo}
+                    <div class="result-title">${resultTitle}</div>
+                    <div class="result-subtitle">${resultSubtitle}</div>
+                    <div class="confidence">Confidence: ${data.confidence}%</div>
+                </div>
+                ${imagesHtml}
+            `;
+        }
+    </script>
+</body>
+</html>

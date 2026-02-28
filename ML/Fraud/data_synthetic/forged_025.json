@@ -1,0 +1,14 @@
+{
+  "issuer": "Fraudulent Academy",
+  "creation_date": "2022-12-26T00:36:06.057526",
+  "modification_date": "2025-09-14T00:36:06.057526",
+  "producer": "Fake PDF Maker",
+  "creator": "Hacker Tool",
+  "title": "Certificate - Fraudulent Academy",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 1003,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

@@ -1,0 +1,14 @@
+{
+  "issuer": "Scam Institute",
+  "creation_date": "2024-04-18T00:36:06.911127",
+  "modification_date": "2025-09-20T00:36:06.911127",
+  "producer": "Fake PDF Maker",
+  "creator": "Paint",
+  "title": "Certificate - Scam Institute",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 524,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

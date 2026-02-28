@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: credexa
+    env: node
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GIT_LFS_SKIP_SMUDGE
+        value: "0"

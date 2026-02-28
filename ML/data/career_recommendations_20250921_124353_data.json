@@ -1,0 +1,330 @@
+{
+  "user_profile": {
+    "skills": [
+      "python",
+      "machine learning",
+      "sql",
+      "data analysis",
+      "pandas",
+      "scikit-learn"
+    ],
+    "experience_level": "mid",
+    "preferred_roles": [
+      "data scientist",
+      "machine learning engineer",
+      "data analyst"
+    ],
+    "location": "San Francisco, CA",
+    "salary_range": {
+      "min": 80000,
+      "max": 120000
+    },
+    "work_type": "hybrid"
+  },
+  "recommendations": [
+    {
+      "job": {
+        "title": "Data Scientist",
+        "company": "TechCorp",
+        "location": "San Francisco, CA",
+        "description": "Looking for a Data Scientist with Python, SQL, and machine learning experience. Work on exciting AI projects.",
+        "skills_required": [
+          "python",
+          "sql",
+          "machine learning",
+          "pandas",
+          "scikit-learn"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$90,000 - $130,000",
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "indeed"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 95.0,
+        "overall_score": 85.66666666666666
+      },
+      "explanation": "This Data Scientist position at TechCorp is a excellent match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Excellent location match",
+        "Competitive salary range"
+      ],
+      "cons": [],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Senior Data Scientist",
+        "company": "Tech Corp",
+        "location": "San Francisco, CA",
+        "description": "We are looking for a Senior Data Scientist with expertise in Python, machine learning, and statistical analysis. You will work on cutting-edge AI projects and collaborate with cross-functional teams.",
+        "skills_required": [
+          "python",
+          "machine learning",
+          "sql",
+          "pandas",
+          "scikit-learn",
+          "statistics"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$120,000 - $180,000",
+        "job_type": "full-time",
+        "work_type": "hybrid",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 91.66666666666669,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 80.0,
+        "overall_score": 77.5
+      },
+      "explanation": "This Senior Data Scientist position at Tech Corp is a very good match for your profile. Your skills align excellently with the requirements, covering 83% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (83% coverage)",
+        "High-growth industry/technology",
+        "Excellent location match",
+        "Competitive salary range"
+      ],
+      "cons": [],
+      "skill_gaps": [
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Data Analyst",
+        "company": "Finance Company",
+        "location": "New York, NY",
+        "description": "Seeking a Data Analyst to work with large datasets, create visualizations, and provide business insights. SQL, Python, and Tableau experience required.",
+        "skills_required": [
+          "sql",
+          "python",
+          "tableau",
+          "excel",
+          "data analysis",
+          "statistics"
+        ],
+        "experience_level": "entry",
+        "salary_range": "$70,000 - $90,000",
+        "job_type": "full-time",
+        "work_type": "onsite",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 55.0,
+        "role_relevance_score": 46.666666666666664,
+        "experience_match_score": 85,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 85.0,
+        "overall_score": 63.666666666666664
+      },
+      "explanation": "This Data Analyst position at Finance Company is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tableau, excel, statistics. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "tableau",
+        "excel",
+        "statistics"
+      ],
+      "learning_suggestions": {
+        "tableau": [
+          "Take an online course in tableau",
+          "Practice tableau through projects",
+          "Read documentation and tutorials about tableau"
+        ],
+        "excel": [
+          "Take an online course in excel",
+          "Practice excel through projects",
+          "Read documentation and tutorials about excel"
+        ],
+        "statistics": [
+          "Take an online course in statistics",
+          "Practice statistics through projects",
+          "Read documentation and tutorials about statistics"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Machine Learning Engineer",
+        "company": "AI Startup",
+        "location": "Remote",
+        "description": "Join our team as a Machine Learning Engineer. Requirements include Python, TensorFlow, Docker, and cloud platforms. Experience with MLOps and model deployment preferred.",
+        "skills_required": [
+          "python",
+          "tensorflow",
+          "docker",
+          "aws",
+          "kubernetes",
+          "mlops"
+        ],
+        "experience_level": "mid",
+        "salary_range": "$100,000 - $150,000",
+        "job_type": "full-time",
+        "work_type": "remote",
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 18.333333333333332,
+        "role_relevance_score": 33.33333333333333,
+        "experience_match_score": 100,
+        "growth_score": 95,
+        "location_score": 100,
+        "salary_score": 90.0,
+        "overall_score": 53.5
+      },
+      "explanation": "This Machine Learning Engineer position at AI Startup is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in tensorflow, docker, aws. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "Perfect experience level match",
+        "High-growth industry/technology",
+        "Excellent location match",
+        "Remote work opportunity",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address"
+      ],
+      "skill_gaps": [
+        "tensorflow",
+        "docker",
+        "aws",
+        "kubernetes",
+        "mlops"
+      ],
+      "learning_suggestions": {
+        "tensorflow": [
+          "Take an online course in tensorflow",
+          "Practice tensorflow through projects",
+          "Read documentation and tutorials about tensorflow"
+        ],
+        "docker": [
+          "Learn containerization basics",
+          "Practice with Docker Hub",
+          "Deploy applications"
+        ],
+        "aws": [
+          "Get AWS certification",
+          "Practice with free tier",
+          "Build cloud projects"
+        ],
+        "kubernetes": [
+          "Take an online course in kubernetes",
+          "Practice kubernetes through projects",
+          "Read documentation and tutorials about kubernetes"
+        ],
+        "mlops": [
+          "Take an online course in mlops",
+          "Practice mlops through projects",
+          "Read documentation and tutorials about mlops"
+        ]
+      }
+    },
+    {
+      "job": {
+        "title": "Senior Python Developer",
+        "company": "WebTech Inc",
+        "location": "Austin, TX",
+        "description": "Senior Python Developer needed for web applications. Django, Flask, PostgreSQL experience required.",
+        "skills_required": [
+          "python",
+          "django",
+          "flask",
+          "postgresql",
+          "javascript"
+        ],
+        "experience_level": "senior",
+        "salary_range": "$100,000 - $140,000",
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "indeed"
+      },
+      "score": {
+        "skill_score": 22.0,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 70,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 90.0,
+        "overall_score": 38.45
+      },
+      "explanation": "This Senior Python Developer position at WebTech Inc is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in django, flask, postgresql. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology",
+        "Competitive salary range"
+      ],
+      "cons": [
+        "Significant skill gaps to address",
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [
+        "django",
+        "flask",
+        "postgresql",
+        "javascript"
+      ],
+      "learning_suggestions": {
+        "django": [
+          "Take an online course in django",
+          "Practice django through projects",
+          "Read documentation and tutorials about django"
+        ],
+        "flask": [
+          "Take an online course in flask",
+          "Practice flask through projects",
+          "Read documentation and tutorials about flask"
+        ],
+        "postgresql": [
+          "Take an online course in postgresql",
+          "Practice postgresql through projects",
+          "Read documentation and tutorials about postgresql"
+        ],
+        "javascript": [
+          "Learn ES6+ features",
+          "Practice DOM manipulation",
+          "Build web applications"
+        ]
+      }
+    }
+  ],
+  "generated_at": "2025-09-21T12:43:53.538716"
+}

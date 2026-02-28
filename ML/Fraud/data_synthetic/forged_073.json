@@ -1,0 +1,14 @@
+{
+  "issuer": "Counterfeit College",
+  "creation_date": "2022-10-18T00:36:07.136548",
+  "modification_date": "2025-09-23T00:36:07.136548",
+  "producer": "Unknown",
+  "creator": "Unknown Application",
+  "title": "Certificate - Counterfeit College",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 1072,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

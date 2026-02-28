@@ -1,0 +1,143 @@
+
+🎯 CAREER ASSISTANT RECOMMENDATION REPORT
+Generated on: 2025-09-21 20:36:25
+========================================================
+
+USER PROFILE:
+- Experience Level: mid
+- Skills: python, pandas, numpy, seaborn
+- Preferred Roles: remote developer
+- Location: 
+- Work Type: None
+
+EXECUTIVE SUMMARY:
+- Found 5 high-quality job matches
+- Average compatibility score: 54.0/100
+
+JOB RECOMMENDATIONS:
+========================================================
+
+1. Remote Python Developer
+   Company: GitLab
+   Location: Remote
+   Salary: $90,000 - $140,000
+   Overall Score: 63.2/100
+   
+   Score Breakdown:
+   - Skill Match: 18.3/100
+   - Role Relevance: 80/100
+   - Experience Fit: 100/100
+   - Growth Potential: 95/100
+   
+   Why this job fits:
+   This Remote Python Developer position at GitLab is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in ruby, vue.js, postgresql. The role closely matches your career preferences. The position is in a high-growth area with excellent future prospects.
+   
+   Strengths:
+      • You bring additional valuable skills beyond requirements
+   • Perfect experience level match
+   • High-growth industry/technology
+   • Remote work opportunity
+   
+   Skills to develop:
+   ruby, vue.js, postgresql, redis, git
+   
+   ============================================================
+
+2. Python Developer
+   Company: WebTech Inc
+   Location: Austin, TX
+   Salary: $85,000 - $120,000
+   Overall Score: 53.2/100
+   
+   Score Breakdown:
+   - Skill Match: 18.3/100
+   - Role Relevance: 40/100
+   - Experience Fit: 100/100
+   - Growth Potential: 95/100
+   
+   Why this job fits:
+   This Python Developer position at WebTech Inc is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in django, flask, postgresql. The position is in a high-growth area with excellent future prospects.
+   
+   Strengths:
+      • You bring additional valuable skills beyond requirements
+   • Perfect experience level match
+   • High-growth industry/technology
+   
+   Skills to develop:
+   django, flask, postgresql, javascript, git
+   
+   ============================================================
+
+3. Python Backend Developer
+   Company: Shopify
+   Location: Ottawa, ON
+   Salary: $90,000 - $130,000
+   Overall Score: 53.2/100
+   
+   Score Breakdown:
+   - Skill Match: 18.3/100
+   - Role Relevance: 40/100
+   - Experience Fit: 100/100
+   - Growth Potential: 95/100
+   
+   Why this job fits:
+   This Python Backend Developer position at Shopify is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in django, celery, postgresql. The position is in a high-growth area with excellent future prospects.
+   
+   Strengths:
+      • You bring additional valuable skills beyond requirements
+   • Perfect experience level match
+   • High-growth industry/technology
+   
+   Skills to develop:
+   django, celery, postgresql, redis, graphql
+   
+   ============================================================
+
+4. Software Developer
+   Company: U.S. Digital Service
+   Location: Washington, DC
+   Salary: $102,000 - $172,000
+   Overall Score: 51.5/100
+   
+   Score Breakdown:
+   - Skill Match: 22/100
+   - Role Relevance: 40/100
+   - Experience Fit: 100/100
+   - Growth Potential: 75/100
+   
+   Why this job fits:
+   This Software Developer position at U.S. Digital Service is a fair match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in javascript, aws, agile. The role offers good career growth opportunities.
+   
+   Strengths:
+      • You bring additional valuable skills beyond requirements
+   • Perfect experience level match
+   
+   Skills to develop:
+   javascript, aws, agile, user research
+   
+   ============================================================
+
+5. Senior Python Developer
+   Company: Spotify
+   Location: New York, NY
+   Salary: $130,000 - $170,000
+   Overall Score: 48.7/100
+   
+   Score Breakdown:
+   - Skill Match: 18.3/100
+   - Role Relevance: 40/100
+   - Experience Fit: 70/100
+   - Growth Potential: 95/100
+   
+   Why this job fits:
+   This Senior Python Developer position at Spotify is a developing match for your profile. While there are skill gaps to address, this role offers significant learning opportunities in fastapi, postgresql, redis. The position is in a high-growth area with excellent future prospects.
+   
+   Strengths:
+      • You bring additional valuable skills beyond requirements
+   • High-growth industry/technology
+   • Remote work opportunity
+   
+   Skills to develop:
+   fastapi, postgresql, redis, docker, aws
+   
+   ============================================================

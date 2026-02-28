@@ -1,0 +1,14 @@
+{
+  "issuer": "Pretend Institute",
+  "creation_date": "2024-05-30T00:36:06.127187",
+  "modification_date": "2025-08-30T00:36:06.127187",
+  "producer": "Unknown",
+  "creator": "Unknown Application",
+  "title": "Certificate - Pretend Institute",
+  "subject": "Certificate Document",
+  "keywords": "certificate, fake, diploma",
+  "creation_date_delta": 482,
+  "producer_mismatch": true,
+  "unusual_editor": true,
+  "suspicious_issuer": true
+}

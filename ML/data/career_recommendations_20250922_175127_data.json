@@ -1,0 +1,205 @@
+{
+  "user_profile": {
+    "skills": [
+      "python",
+      "machine learning",
+      "sql",
+      "data analysis",
+      "pandas",
+      "scikit-learn"
+    ],
+    "experience_level": "mid",
+    "preferred_roles": [
+      "data scientist",
+      "machine learning engineer",
+      "data analyst"
+    ],
+    "location": "San Francisco, CA",
+    "salary_range": {
+      "min": 80000,
+      "max": 120000
+    },
+    "work_type": "hybrid"
+  },
+  "recommendations": [
+    {
+      "job": {
+        "title": "Full Stack Software Engineer, AI Features",
+        "company": "Skylight",
+        "location": "Unknown Location",
+        "description": "Job at Skylight",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 65.75
+      },
+      "explanation": "This Full Stack Software Engineer, AI Features position at Skylight is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Software Developer (Python)",
+        "company": "Lenme",
+        "location": "Unknown Location",
+        "description": "Job at Lenme",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 65.75
+      },
+      "explanation": "This Software Developer (Python) position at Lenme is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Junior Software Developer (React Native)",
+        "company": "Lenme",
+        "location": "Unknown Location",
+        "description": "Job at Lenme",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 0.0,
+        "experience_match_score": 75,
+        "growth_score": 95,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 65.75
+      },
+      "explanation": "This Junior Software Developer (React Native) position at Lenme is a good match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The position is in a high-growth area with excellent future prospects.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements",
+        "High-growth industry/technology"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Software Engineer - Backend",
+        "company": "Cardless",
+        "location": "Unknown Location",
+        "description": "Job at Cardless",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 75,
+        "growth_score": 75,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 64.97222222222223
+      },
+      "explanation": "This Software Engineer - Backend position at Cardless is a fair match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The role offers good career growth opportunities.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    },
+    {
+      "job": {
+        "title": "Software Engineer",
+        "company": "Rokt",
+        "location": "Unknown Location",
+        "description": "Job at Rokt",
+        "skills_required": [],
+        "experience_level": null,
+        "salary_range": null,
+        "job_type": null,
+        "work_type": null,
+        "url": null,
+        "posted_date": null,
+        "source": "linkedin"
+      },
+      "score": {
+        "skill_score": 100,
+        "role_relevance_score": 8.888888888888888,
+        "experience_match_score": 75,
+        "growth_score": 75,
+        "location_score": 30,
+        "salary_score": 75,
+        "overall_score": 64.97222222222223
+      },
+      "explanation": "This Software Engineer position at Rokt is a fair match for your profile. Your skills align excellently with the requirements, covering 100% of the needed skills. The role offers good career growth opportunities.",
+      "pros": [
+        "Strong skill match (100% coverage)",
+        "You bring additional valuable skills beyond requirements"
+      ],
+      "cons": [
+        "Location may not be ideal"
+      ],
+      "skill_gaps": [],
+      "learning_suggestions": {}
+    }
+  ],
+  "generated_at": "2025-09-22T17:51:27.736865"
+}
